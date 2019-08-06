@@ -2,15 +2,15 @@ import React from 'react';
 
 import './form-imput.styles.scss';
 
-const formInput = ({ handleChange, lable, ...otherProps}) => (
+const formInput = ({ handleChange, label, ...otherProps}) => (
   <div className = "group">
     <input className='form-input' onChange= {handleChange} {...otherProps} />
     {
-      lable ?
+      label ?
       (<lable className={`${otherProps.value.length ? 'shrink' : ''
       } form-input-lable`}
       >
-        {lable}
+        {label}
 
       </lable>)
       : null

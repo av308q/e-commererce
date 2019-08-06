@@ -1,3 +1,19 @@
+import manchester1 from '../../assets/manchester1.jpg'
+import manchester2 from '../../assets/manchester2.jpeg'
+import manchester3 from '../../assets/manchester3.jpg'
+import manchester4 from '../../assets/manchester4.jpg'
+
+import women1 from '../../assets/women1.jpeg'
+import women2 from '../../assets/women2.jpg'
+import women3 from '../../assets/women3.jpg'
+import women4 from '../../assets/women4.jpg'
+
+import jacket1 from '../../assets/jacket1.jpeg'
+import jacket2 from '../../assets/jacket2.jpeg'
+import jacket3 from '../../assets/jacket3.jpeg'
+import jacket4 from '../../assets/jacket4.jpeg'
+
+
 export const SHOP_DATA = [
   {
     id: 1,
@@ -6,26 +22,26 @@ export const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        name: 'Red Stripes',
+        imageUrl: manchester1,
         price: 25
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'RED Black',
+        imageUrl: manchester2,
         price: 18
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'Navy',
+        imageUrl: manchester3,
         price: 35
       },
       {
         id: 4,
         name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        imageUrl: manchester4,
         price: 25
       },
       {
@@ -123,25 +139,25 @@ export const SHOP_DATA = [
       {
         id: 1,
         name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        imageUrl: jacket1,
         price: 125
       },
       {
         id: 2,
         name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        imageUrl: jacket2,
         price: 90
       },
       {
         id: 3,
         name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        imageUrl: jacket3,
         price: 90
       },
       {
         id: 4,
         name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        imageUrl: jacket4,
         price: 165
       },
       {
@@ -159,26 +175,26 @@ export const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Red 15',
+        imageUrl: women1,
         price: 25
       },
       {
         id: 2,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        name: 'Red Classic 19/20',
+        imageUrl: women2,
         price: 20
       },
       {
         id: 3,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        name: 'Pink',
+        imageUrl: women3,
         price: 80
       },
       {
         id: 4,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        name: 'Black',
+        imageUrl: women4,
         price: 80
       },
       {
